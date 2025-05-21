@@ -5,7 +5,6 @@ import logging
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import Command
 from dotenv import load_dotenv
-
 from bot.handlers.main import start, foods, food, recipe_of_food
 
 load_dotenv()
